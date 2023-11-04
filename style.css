@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200;1,500&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.buscar-produtos{
+background-color: rgb(39, 39, 39);
+   text-align: center;
+   padding-left: 20px;
+   position: fixed;
+   top: 50px;
+   left:  0px;
+   width: 100%;
+   height: 30px; 
+   padding-top: 2px;
+}
+
+.Buscamento{
+    height: 22px;
+    width: 330px;
+    background-color: #A0FAA6;
+    border-style: none;
+    
+    
+  
+}
+
+.buscar{
+    background-color: #4e4d4d;
+    color: white;
+    border-style: none;
+    width: 80px;
+    height: 25px;
+    padding-top: 2px;
+    font-weight: 300;
+ 
+}
+.buscar:hover{
+    background-color: #8b5efa;
+    box-shadow: 0px 0px 30px 0px #4b09f3;
+    
+}
+
+
+h1{
+    background-color: #000000;
+    font-size: 35px;
+    font-weight: 400;
+
+
+    color: rgb(255, 254, 254);
+    margin: 0px;
+    height: 70px;
+    width:  100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    padding: 0px 0px 0px 500px;
+}
+
+    
+body{
+    height: 150vh;
+    background-color: #111111;}
+
+
+*{
+    font-family: 'Poppins', 'sans serif';
+    margin: 0px;}
+    
+
+main.menu-lateral{
+
+    width: 0px;
+    height: 100%;
+    background-color: rgb(26, 25, 25);
+    padding: 50px 0px 10px 0%;
+    overflow: hidden;
+    transition: .3s}
+    
+    
+    
+    
+
+
+main.menu-lateral.expandir{
+    width: 210px;
+ 
+   
+
+}
+    
+main {
+    top: 82px;
+    position: fixed;
+}
+    
+    
+
+nav{
+    width: 100%;
+    height: 40px;
+    padding-left: 8px;
+    padding-top: 47px;
+
+}
+    
+
+nav i{
+    color: #6efd78;
+    font-size: 26px;
+    cursor: pointer;
+    position: fixed;
+    top: 30;
+    background-color: rgb(41, 41, 41);
+    width: 30px;
+    height: 0px;
+    padding-left: 10px;
+  
+
+  
+  
+}
+
+    
+ul {
+    height: 500px;
+    list-style: none;
+    padding: 0px;}
+
+ul li.item:hover {
+    transition: .2s;}
+
+ul li.ativo{
+    background-color: #8b5efa;
+    box-shadow: 0px 0px 10px 0px #8b5efa;
+ 
+
+}
+
+ul li.item:hover{
+    background-color: #8b5efa;}
+
+ul li.item a{
+    color:#6efd78;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 10px;}
+
+ul li.item a .texto{
+    margin-left: 35px;
+    font-size: 16px;
+    transition: .2s;
+    opacity: 0;}
+    
+
+main.menu-lateral.expandir .texto{
+    margin-left: 20px;
+    opacity: 1;}
+    
+
+
+ul li.item a .icon{
+    font-size: 19px;}
+
+
+
+div.produtos-atuais{
+    margin-top: 0px ;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 30px;
+
+
+  
+
+    
+}
+
+
+h2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+.imagem{
+    width: 240px;
+    box-shadow: 0px 0px 4px ;
+    background-color: rgb(250, 250, 250);
+    
+
+
+}
